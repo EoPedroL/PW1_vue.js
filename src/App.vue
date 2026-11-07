@@ -7,7 +7,7 @@
         
         <div class="header-actions">
           <button class="cart-badge-btn" @click="abrirModal">
-            🛒 Itens no carrinho: <strong>{{ totalItensCarrinho }}</strong>
+             Itens no carrinho: <strong>{{ totalItensCarrinho }}</strong>
           </button>
         </div>
       </div>
@@ -373,3 +373,13 @@ body {
   background-color: #4f46e5;
   color: #ffffff;
   border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-checkout:hover {
+  background-color: #4338ca;
+}
+</style>
