@@ -45,12 +45,54 @@ const contadorCarrinho = ref(0)
 const termoBusca = ref('')
 
 const produtos = ref([
-  { id: 1, nome: 'Teclado Mecânico RGB', preco: 289.90, imagem: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=400&q=80' },
-  { id: 2, nome: 'Mouse Gamer 16000 DPI', preco: 159.90, imagem: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=400&q=80' },
-  { id: 3, nome: 'Monitor UltraWide 29"', preco: 1250.00, imagem: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80' },
-  { id: 4, nome: 'Headset Surround 7.1', preco: 349.00, imagem: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=400&q=80' },
-  { id: 5, nome: 'Webcam Full HD 1080p', preco: 199.90, imagem: 'https://images.unsplash.com/photo-1587826080692-f439cd0b70da?auto=format&fit=crop&w=400&q=80' },
-  { id: 6, nome: 'Mousepad Extra Grande', preco: 79.90, imagem: 'https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=400&q=80' }
+  { 
+    id: 1, 
+    nome: 'Teclado Mecânico RGB', 
+    preco: 289.90, 
+    imagem: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=400&q=80' 
+  },
+  { 
+    id: 2, 
+    nome: 'Mouse Gamer 16000 DPI', 
+    preco: 159.90, 
+    imagem: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=400&q=80' 
+  },
+  { 
+    id: 3, 
+    nome: 'Monitor UltraWide 29"', 
+    preco: 1250.00, 
+    imagem: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80' 
+  },
+  { 
+    id: 4, 
+    nome: 'Headset Surround 7.1', 
+    preco: 349.00, 
+    imagem: 'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=400&q=80' 
+  },
+  { 
+    id: 5, 
+    nome: 'Webcam Full HD 1080p', 
+    preco: 199.90, 
+    imagem: 'https://images.unsplash.com/photo-1629429408209-1f912961dbd8?auto=format&fit=crop&w=400&q=80' 
+  },
+  { 
+    id: 6, 
+    nome: 'Mousepad Extra Grande', 
+    preco: 79.90, 
+    imagem: 'https://images.kabum.com.br/produtos/fotos/103960/mousepad-gamer-rise-mode-rgb-estendido-900x300mm-preto-rm-mp-07-rgb_1747227673_gg.jpg' 
+  },
+  { 
+    id: 7, 
+    nome: 'Cadeira Gamer Ergonômica', 
+    preco: 899.00, 
+    imagem: 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=400&q=80' 
+  },
+  { 
+    id: 8, 
+    nome: 'Microfone Condensador USB', 
+    preco: 249.90, 
+    imagem: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=400&q=80' 
+  }
 ])
 
 function incrementarCarrinho() {
